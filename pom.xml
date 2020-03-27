@@ -7,13 +7,22 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>clinic.programmming</groupId>
   <artifactId>example</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
   <dependencies>
  <dependency>
   <groupId>com.jwebmp.jpms.commons</groupId>
   <artifactId>commons-lang3</artifactId>
   <version>0.68.0.1</version>
-</dependency> </dependencies>
+</dependency> 
+
+<dependency>
+  <groupId>junit</groupId>
+  <artifactId>junit</artifactId>
+  <version>4.13</version>
+  <scope>test</scope>
+</dependency>
+
+</dependencies>
   <build>
       <plugins>
       <plugin>
